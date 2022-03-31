@@ -7,9 +7,56 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: blue;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+
+.box {
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 20px;
+}
+.input:focus {
+  outline: none;
+}
+.btn {
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+}
+.text__box {
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #cecece;
+  margin-right: 10px;
+  border: none;
+  background-color: transparent;
+}
+.result {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-right: 10px;
+}
+
+.active {
+  color: red;
+}
